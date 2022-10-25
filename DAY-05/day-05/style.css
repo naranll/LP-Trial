@@ -1,0 +1,43 @@
+/*.bio {
+    padding: 20px;
+    background-color: orange;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}*/
+
+img {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+   /* padding: 300px white; */
+    border: 300px orange;
+    border-radius:50%;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    width: 30vw;
+    border: 1px solid #ccc;
+    margin:20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+header h2 {
+    color:navy;
+}
+
+.hbar {
+    display:inline-block;                    /*inline by itself can't change height*/
+}
+main {
+    width: 40vw;
+    margin:20px
+    box-sizing: border-box;
+}
+section {
+    width: 40vw;
+}
+main h2{
+    color:orange;
+}

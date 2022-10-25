@@ -1,0 +1,59 @@
+.title {
+  font-family: cursive;
+  font-size: 36px;
+  text-align: center;
+}
+.featured {
+  font-size: 24px;
+  font-family: Helvetica;
+  border: 7px dotted orange;
+  margin: 30px; /* creates a 30 pixel margin on each side */
+  padding: 15px; /* adds 15 pixels of space between the text and the border */
+}
+.content {
+  font-size: 20px;
+  font-family: Arial;
+  border: 2px solid black;
+
+  padding: 15px; /* adds 15 pixels of space between the text and the border */
+  /* Adds 0 pixels of margin to the top
+            30 pixels of margin to the left side
+            50 pixels of margin to the bottom
+            15 pixels of margin to the right side
+    */
+ /* margin-top: 0px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  margin-left: 30px;*/
+
+  margin: 0px 30px 50px 15px;
+}
+.footer {
+  font-size: 11px;
+  /* Add space to the left side */
+  padding-left:20px;
+  margin-left: 30px;
+}
+
+body {
+  background-color: AliceBlue;
+  width: 80%;
+}
+
+.feat-title {
+  font-weight: bolder;
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
+/* Style the h2 tags inside of the content div */
+.content h2 {
+  font-style: italic;
+  color:blueviolet;
+}
+
+/* Add a divider between sections using CSS instead of hr*/
+/* Chooses all h2 tags that follow directly after p */
+p + h2 {
+  border-top: 2px solid gray;
+}

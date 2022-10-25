@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size:1.5em;
+ } */
+@font-face {
+    font-family: 'Audiowide';
+    src: url("../fonts/Audiowide/Audiowide-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url("../fonts/Audiowide/Exo_2/Exo2-VariableFont_wght.ttf") format('truetype');
+}
+
+header {
+    text-align: center;
+    color: #f8f8ff;
+    background-image: url("../img/two.jpg");
+    background-size: cover;
+    background-color: #8f8fa3;
+    background-blend-mode: multiply;
+    padding: 10vh;
+}
+
+h1 {
+    font-family: 'Audiowide';
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+body {
+    font-family: 'Exo';
+    background-image: url("../img/br2.jpg");
+    background-size: cover;
+    background-color: #7b7b86f1;
+    background-blend-mode: multiply;
+}
+
+.sticky {
+    position:sticky;
+    /* display:none; */
+    color: silver;
+    background-color:rgb(2, 2, 24);
+    text-align:center;
+    top:0;
+}
+
+article {
+    /* margin: 0 10%; */
+    text-align:justify;
+}
+
+.al {
+    width:90%;
+    max-width: 800px;
+    margin: 10px 10%;
+    padding: 1.5em;
+    background-color:#c3cbddce;
+}
+
+.al img {
+    display:inline-block;
+    /* width: 400px;
+    height: 400px; */
+
+}

@@ -1,0 +1,19 @@
+/* Challenge style goes here */
+body{
+    height:200vh;
+}
+
+.logo{
+    position:absolute;
+    top:-45px;
+    left:20px;
+}
+
+.card{
+    position:relative;
+}
+
+.banner{
+    position:sticky;
+    top:0;
+}

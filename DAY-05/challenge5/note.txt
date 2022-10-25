@@ -1,0 +1,2 @@
+none: hides displaying part
+block: builds on top of each other, uses 100%s

@@ -1,0 +1,118 @@
+/* Web Fonts ----------------------- */
+
+@font-face {
+  font-family: 'abolition';
+  src: url('../fonts/abolition-regular-webfont.ttf') format('woff');
+}
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.25em;
+  /* 20px on most screens */
+}
+
+img {
+  width: 100%;
+  /* responsive images */
+}
+
+/* Main Styles --------------------- */
+header {
+  text-align: center;
+  padding: 25vh 0;
+  /*why 0*/
+  color: rgb(245, 245, 236);
+  background-color: coral;
+  background-image: url("../img/mountains.jpg");
+  /* background-repeat: repeat-y; */
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+body {
+  margin: 1rem;
+  color: #454959;
+  font: 300 100%/1.5 'Work Sans', sans-serif;
+}
+
+h1, h2 {
+  font: 400 4rem/1.1 'Abolition Regular', Impact, Charcoal, sans-serif;
+}
+
+h1 {
+  font-family: 'abolition';
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 0 rgba(76, 70, 70, 0.5);
+  /* -30px -30px -30px rgba(20, 181, 76, 0.8); */
+}
+
+h1:after {
+  display: block;
+  content: '\2193';
+}
+
+.intro {
+  line-height: 20px;
+}
+
+#wildlife {
+  color: white;
+  box-shadow: 0 -8px 1px rgb(255, 127, 80);
+  border-radius: 7px 7px 0 0;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20% 15%;
+  background: url(../img/bear.jpg) center / cover #454959;
+}
+
+.callout {
+  color: white;
+  background-image: linear-gradient(135deg, rgba(255, 255, 224, .8) 0%, rgba(250, 100, 50, .2) 50%), linear-gradient(#b40 0%, #d63 50%, #c51 51%, #e74 100%);
+  display: block;
+  width:250px;
+  padding: .25ren 1rem;
+  border-radius:20px/10px;
+  margin: 1rem auto;
+  box-shadow: 1px 3px rgb(0,10,30,5);
+  text-align: center;
+  font-size: 1.25rem;
+}
+section {
+  padding:4rem 0;
+  border-bottom: 1px dashed #9599a9;
+}
+
+main 
+{
+  max-width: 1440px;
+  margin: 40px auto;
+  hyphens: auto;
+/* uyeer tasalna*/
+}
+
+
+.column {
+  position: relative;
+  display: inline-block;
+  height: 10px;
+  max-width: 40%;
+  margin: 10px;
+  padding: 20px;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.main-footer {
+  text-align:center;
+}
+
+/* Media Queries ------------------- */
